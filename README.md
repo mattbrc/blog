@@ -4,7 +4,7 @@ Minimalist blog inspired by [Bearblog](https://bearblog.dev/discover/)
 
 Recreation from the primary Acid Gambit blog at [acidgambit.substack.com](https://acidgambit.substack.com/)
 
-## 🚀 Project Structure
+## Project Structure
 
 ```text
 /
@@ -20,7 +20,7 @@ Recreation from the primary Acid Gambit blog at [acidgambit.substack.com](https:
 └── package.json
 ```
 
-## 🧞 Commands
+## Commands
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |

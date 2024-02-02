@@ -1,0 +1,13 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import BaseLayout from "./BaseLayout.astro";
+import BlogPost from "@/components/BlogPost.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout pageTitle={frontmatter.title}>
+  <p>Written by {frontmatter.author}</p>
+  <p>Published on: {frontmatter.pubDate.slice(0, 10)}</p>
+  <slot />
+</BaseLayout>

@@ -48,7 +48,7 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 98%;
+    --primary: 220, 9%, 87%;
     --primary-foreground: 240 5.9% 10%;
 
     --secondary: 240 3.7% 15.9%;
@@ -105,10 +105,10 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
+/* h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
-}
+} */
 
 h2 {
   margin: 1rem 0;

@@ -2,12 +2,20 @@
 import { ViewTransitions } from "astro:transitions";
 import BaseLayout from "./BaseLayout.astro";
 import BlogPost from "@/components/BlogPost.astro";
+import Prose from "@/components/Prose.astro";
 
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <p>Written by {frontmatter.author}</p>
-  <p>Published on: {frontmatter.pubDate.slice(0, 10)}</p>
-  <slot />
+  <div class="px-2 flex justify-center">
+    <Prose>
+      <div class="pt-8">
+        <h1>{frontmatter.title}</h1>
+        <p class="date">{frontmatter.subtitle}</p>
+        <p class="date">{frontmatter.pubDate.slice(0, 10)}</p>
+      </div>
+      <slot />
+    </Prose>
+  </div>
 </BaseLayout>

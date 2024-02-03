@@ -1,12 +1,12 @@
 ---
 layout: "@/layouts/PostLayout.astro"
-title: My Second Blog Post
+title: 10-Miler Prep and the Studio App Release
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:
   url: "https://docs.astro.build/assets/arc.webp"
   alt: "Thumbnail of Astro arcs."
-pubDate: 2022-07-08
+pubDate: 2024-01-22
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
 

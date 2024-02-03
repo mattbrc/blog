@@ -84,6 +84,10 @@
   color: #7d7e82;
 }
 
+.acid:hover {
+  color: #40e7b1;
+}
+
 html {
   background-color: var(--background);
   font-family: "Geist Sans", sans-serif;

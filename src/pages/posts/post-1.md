@@ -1,7 +1,7 @@
 ---
 layout: "@/layouts/PostLayout.astro"
-title: "My First Blog Post"
-pubDate: 2022-07-01
+title: "Produce, Don't Consume"
+pubDate: 2024-01-29
 description: "This is the first post of my new Astro blog."
 author: "Acid Gambit"
 image:
